@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{111C7B02-5E7E-4CF0-B314-9520E2C11270}</ProjectGuid>
+    <ProjectGuid>{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sapphire.Core</RootNamespace>
-    <AssemblyName>Sapphire.Core</AssemblyName>
+    <RootNamespace>Sapphire.Application</RootNamespace>
+    <AssemblyName>Sapphire.Application</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,10 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\external\Microsoft.SharePoint.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -49,23 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\ICommand.cs" />
-    <Compile Include="Repositories\IListBasedRepository.cs" />
-    <Compile Include="Repositories\IListItemRepository.cs" />
-    <Compile Include="Mapping\ListItemFieldMapper.cs" />
-    <Compile Include="Repositories\ListItemRepository.cs" />
-    <Compile Include="Validation\BrokenRule.cs" />
-    <Compile Include="DomainBase\EntityBase.cs" />
-    <Compile Include="DomainBase\IAggregateRoot.cs" />
-    <Compile Include="DomainBase\IEntity.cs" />
-    <Compile Include="Validation\BrokenRuleMessages.cs" />
-    <Compile Include="Validation\EntityValidator.cs" />
-    <Compile Include="Validation\IEntityValidator.cs" />
-    <Compile Include="Factories\IEntityFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWorkRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application", "Sap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application.Tests", "Sapphire.Application.Tests\Sapphire.Application.Tests.csproj", "{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}"
 EndProject
+Project("{00000000-0000-0000-0000-000000000000}") = "Sapphire.Environment", "Sapphire.Environment\Sapphire.Environment.csproj", "{3A9E7570-F684-44CF-A218-14B53C32D3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Environment.Tests", "Sapphire.Environment.Tests\Sapphire.Environment.Tests.csproj", "{E2798F31-8BB3-4A14-84DD-67D8B2BAED29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9E7570-F684-44CF-A218-14B53C32D3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9E7570-F684-44CF-A218-14B53C32D3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9E7570-F684-44CF-A218-14B53C32D3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9E7570-F684-44CF-A218-14B53C32D3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2798F31-8BB3-4A14-84DD-67D8B2BAED29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2798F31-8BB3-4A14-84DD-67D8B2BAED29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2798F31-8BB3-4A14-84DD-67D8B2BAED29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2798F31-8BB3-4A14-84DD-67D8B2BAED29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

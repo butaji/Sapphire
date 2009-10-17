@@ -10,6 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{CD
 		..\external\Microsoft.Practices.ObjectBuilder2.dll = ..\external\Microsoft.Practices.ObjectBuilder2.dll
 		..\external\Microsoft.Practices.Unity.dll = ..\external\Microsoft.Practices.Unity.dll
 		..\external\Microsoft.SharePoint.dll = ..\external\Microsoft.SharePoint.dll
+		..\external\Microsoft.SharePoint.Security.dll = ..\external\Microsoft.SharePoint.Security.dll
+		..\external\Microsoft.SharePoint.Security.xml = ..\external\Microsoft.SharePoint.Security.xml
+		..\external\Microsoft.SharePoint.xml = ..\external\Microsoft.SharePoint.xml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application", "Sapphire.Application\Sapphire.Application.csproj", "{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}"

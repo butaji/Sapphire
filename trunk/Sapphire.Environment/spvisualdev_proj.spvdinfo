@@ -1,0 +1,14 @@
+<Settings>
+  <TargetURL>
+  </TargetURL>
+  <IncludedReferencedAssemblies>
+  </IncludedReferencedAssemblies>
+  <WSPBuildOutputPath>
+  </WSPBuildOutputPath>
+  <RemoteServerUse>False</RemoteServerUse>
+  <RemoteServer>
+  </RemoteServer>
+  <RemoteServerPort>
+  </RemoteServerPort>
+  <RemoteServerUseDifferentCred>False</RemoteServerUseDifferentCred>
+</Settings>

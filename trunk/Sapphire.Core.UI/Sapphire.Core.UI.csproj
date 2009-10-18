@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{111C7B02-5E7E-4CF0-B314-9520E2C11270}</ProjectGuid>
+    <ProjectGuid>{556B6E7A-2E39-4CE8-84AD-0067AAA460BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sapphire.Core</RootNamespace>
-    <AssemblyName>Sapphire.Core</AssemblyName>
+    <RootNamespace>Sapphire.Core.UI</RootNamespace>
+    <AssemblyName>Sapphire.Core.UI</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,14 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\external\Microsoft.SharePoint.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.SharePoint.Security, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\external\Microsoft.SharePoint.Security.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -53,26 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Caching\Cache.cs" />
-    <Compile Include="Commands\AsynchronousExecutor.cs" />
-    <Compile Include="Commands\ICommand.cs" />
-    <Compile Include="Commands\ICommandExecutor.cs" />
-    <Compile Include="Repositories\IListBasedRepository.cs" />
-    <Compile Include="Repositories\IListItemRepository.cs" />
-    <Compile Include="Mapping\ListItemFieldMapper.cs" />
-    <Compile Include="Repositories\ListItemRepository.cs" />
-    <Compile Include="Validation\BrokenRule.cs" />
-    <Compile Include="DomainBase\EntityBase.cs" />
-    <Compile Include="DomainBase\IAggregateRoot.cs" />
-    <Compile Include="DomainBase\IEntity.cs" />
-    <Compile Include="Validation\BrokenRuleMessages.cs" />
-    <Compile Include="Validation\EntityValidator.cs" />
-    <Compile Include="Validation\IEntityValidator.cs" />
-    <Compile Include="Factories\IEntityFactory.cs" />
+    <Compile Include="Presenters\CommandServicePresenter.cs" />
+    <Compile Include="Presenters\IPresenter.cs" />
+    <Compile Include="Views\IView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWorkRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sapphire.Core\Sapphire.Core.csproj">
+      <Project>{111C7B02-5E7E-4CF0-B314-9520E2C11270}</Project>
+      <Name>Sapphire.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

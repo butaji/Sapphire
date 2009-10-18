@@ -4,6 +4,9 @@ namespace Sapphire.Environment.Runtime
   {
     string Name { get; }
 
-    object Execute(params object[] arguments);
+    object Execute(string input);
+
+    void SetVar(string name, object value);
+    object GetVar(string name);
   }
 }

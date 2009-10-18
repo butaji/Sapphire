@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caching\Cache.cs" />
     <Compile Include="Commands\ICommand.cs" />
     <Compile Include="Repositories\IListBasedRepository.cs" />
     <Compile Include="Repositories\IListItemRepository.cs" />

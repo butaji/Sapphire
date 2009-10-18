@@ -47,6 +47,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sapphire.Application\Sapphire.Application.csproj">
+      <Project>{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}</Project>
+      <Name>Sapphire.Application</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,8 +1,12 @@
 using System;
 using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Linq.Expressions;
+using System.Reflection;
+using System.Runtime.Serialization;
 using System.Security.Permissions;
 using Microsoft.SharePoint;
+using Microsoft.SharePoint.Security;
 
 namespace Sapphire.Core.Mapping
 {

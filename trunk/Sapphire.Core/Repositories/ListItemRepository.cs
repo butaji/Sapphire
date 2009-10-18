@@ -1,4 +1,5 @@
 using Microsoft.SharePoint;
+using Sapphire.Core.DomainBase;
 using Sapphire.Core.Mapping;
 
 namespace Sapphire.Core.Repositories
@@ -6,7 +7,7 @@ namespace Sapphire.Core.Repositories
   /// <summary>
   /// The ListItemRepository class provides functinality to interact with SharePoint Lists
   /// </summary>
-  internal class ListItemRepository<T> : IListItemRepository<T> where T : BaseEntity, new()
+  internal class ListItemRepository<T> : IListItemRepository<T> where T : EntityBase, new()
   {
     #region Methods
 

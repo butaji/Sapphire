@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Environment.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.UI", "Sapphire.Core.UI\Sapphire.Core.UI.csproj", "{556B6E7A-2E39-4CE8-84AD-0067AAA460BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.Fluent", "Sapphire.Core.Fluent\Sapphire.Core.Fluent.csproj", "{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.Fluent.Tests", "Sapphire.Core.Fluent.Tests\Sapphire.Core.Fluent.Tests.csproj", "{966EDE66-BCEF-4958-B331-AAE273F88E2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,14 @@ Global
 		{556B6E7A-2E39-4CE8-84AD-0067AAA460BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556B6E7A-2E39-4CE8-84AD-0067AAA460BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556B6E7A-2E39-4CE8-84AD-0067AAA460BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

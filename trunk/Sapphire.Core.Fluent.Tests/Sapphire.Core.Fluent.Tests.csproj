@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E2798F31-8BB3-4A14-84DD-67D8B2BAED29}</ProjectGuid>
+    <ProjectGuid>{966EDE66-BCEF-4958-B331-AAE273F88E2C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sapphire.Environment.Tests</RootNamespace>
-    <AssemblyName>Sapphire.Environment.Tests</AssemblyName>
+    <RootNamespace>Sapphire.Core.Fluent.Tests</RootNamespace>
+    <AssemblyName>Sapphire.Core.Fluent.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,10 +33,6 @@
   <ItemGroup>
     <Reference Include="Gallio, Version=3.1.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL" />
     <Reference Include="MbUnit, Version=3.1.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\external\Microsoft.SharePoint.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -49,17 +45,15 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Typemock.ArrangeActAssert, Version=5.3.4.0, Culture=neutral, PublicKeyToken=3dae460033b8d8e2, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LanguagesTests.cs" />
+    <Compile Include="CAMLTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReplWebPartTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sapphire.Environment\Sapphire.Environment.csproj">
-      <Project>{3A9E7570-F684-44CF-A218-14B53C32D3CF}</Project>
-      <Name>Sapphire.Environment</Name>
+    <ProjectReference Include="..\Sapphire.Core.Fluent\Sapphire.Core.Fluent.csproj">
+      <Project>{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}</Project>
+      <Name>Sapphire.Core.Fluent</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

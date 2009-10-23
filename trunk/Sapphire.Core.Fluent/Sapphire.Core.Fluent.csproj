@@ -3,13 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E2798F31-8BB3-4A14-84DD-67D8B2BAED29}</ProjectGuid>
+    <ProjectGuid>{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sapphire.Environment.Tests</RootNamespace>
-    <AssemblyName>Sapphire.Environment.Tests</AssemblyName>
+    <RootNamespace>Sapphire.Core.Fluent</RootNamespace>
+    <AssemblyName>Sapphire.Core.Fluent</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,11 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Gallio, Version=3.1.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL" />
-    <Reference Include="MbUnit, Version=3.1.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\external\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Security, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\external\Microsoft.SharePoint.Security.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -49,18 +51,15 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Typemock.ArrangeActAssert, Version=5.3.4.0, Culture=neutral, PublicKeyToken=3dae460033b8d8e2, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LanguagesTests.cs" />
+    <Compile Include="DateTimeVariables.cs" />
+    <Compile Include="Interfaces\BeginsWithAndContains.cs" />
+    <Compile Include="CAML.cs" />
+    <Compile Include="CAMLFilter.cs" />
+    <Compile Include="Interfaces\IBeginsWithAndContains.cs" />
+    <Compile Include="Predicates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReplWebPartTests.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sapphire.Environment\Sapphire.Environment.csproj">
-      <Project>{3A9E7570-F684-44CF-A218-14B53C32D3CF}</Project>
-      <Name>Sapphire.Environment</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

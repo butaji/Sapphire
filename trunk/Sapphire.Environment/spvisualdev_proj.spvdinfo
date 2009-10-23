@@ -1,6 +1,5 @@
 <Settings>
-  <TargetURL>
-  </TargetURL>
+  <TargetURL>http://vnote</TargetURL>
   <IncludedReferencedAssemblies>
   </IncludedReferencedAssemblies>
   <WSPBuildOutputPath>
@@ -11,4 +10,13 @@
   <RemoteServerPort>
   </RemoteServerPort>
   <RemoteServerUseDifferentCred>False</RemoteServerUseDifferentCred>
+  <DeployTargetServerAddress>
+  </DeployTargetServerAddress>
+  <DeployTargetServerPort>5667</DeployTargetServerPort>
+  <DeployTargetWebApplications>
+  </DeployTargetWebApplications>
+  <DeployTargetServerUserName>
+  </DeployTargetServerUserName>
+  <DeployTargetServerPassword>
+  </DeployTargetServerPassword>
 </Settings>

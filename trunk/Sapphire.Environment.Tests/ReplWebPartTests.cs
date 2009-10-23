@@ -21,7 +21,7 @@ namespace Sapphire.Environment.Tests
       python.SetVar("Console", new Console());
       python.Execute("Console.WriteLine('hello world')");
       var x = (Console)python.GetVar("Console");
-      Assert.AreEqual(x.Message, "hello world");
+      Assert.AreEqual(x.Message, "hello world\r\n");
     }
   }
 }

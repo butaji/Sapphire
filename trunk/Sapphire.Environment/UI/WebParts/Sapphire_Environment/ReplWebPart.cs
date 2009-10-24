@@ -3,11 +3,11 @@ using Sapphire.Environment.UI.WebControls;
 
 namespace Sapphire.Environment.UI.WebParts.Sapphire_Environment
 {
-  public class ReplWebPart : System.Web.UI.WebControls.WebParts.WebPart
+  public sealed class ReplWebPart : WebPart
   {
     public ReplWebPart()
     {
-      this.ExportMode = WebPartExportMode.All;
+      ExportMode = WebPartExportMode.All;
     }
 
     protected override void CreateChildControls()

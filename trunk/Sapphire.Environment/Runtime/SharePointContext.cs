@@ -18,7 +18,7 @@ namespace Sapphire.Environment.Runtime
 
     public string Message
     {
-      get { return _console.Message; }
+      get { return _console.Message.Replace(System.Environment.NewLine, "<br />"); }
     }
   }
 }

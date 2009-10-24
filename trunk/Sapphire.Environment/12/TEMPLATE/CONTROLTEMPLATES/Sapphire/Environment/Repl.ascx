@@ -14,6 +14,6 @@
   <asp:Button ID="RunButton" runat="server" Text="Run" OnClick="RunButton_Click" />
 </div>
 <div>
-  Result:
+  Result:<br />
   <asp:Label ID="ResultLabel" runat="server" />
 </div>

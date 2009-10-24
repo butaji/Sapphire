@@ -1,6 +1,5 @@
 using MbUnit.Framework;
 using Sapphire.Environment.Runtime;
-using Sapphire.Environment.UI.WebControls;
 
 namespace Sapphire.Environment.Tests
 {

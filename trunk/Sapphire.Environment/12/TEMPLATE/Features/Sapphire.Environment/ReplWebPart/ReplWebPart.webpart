@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+    <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+        <metaData>
+            <type name="Sapphire.Environment.UI.WebParts.Sapphire_Environment.ReplWebPart, Sapphire.Environment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fa1e57e9c7ebde49" />
+            <importErrorMessage>Cannot import ReplWebPart Web Part.</importErrorMessage>
+        </metaData>
+        <data>
+            <properties>
+                <property name="Title"
+                          type="string">ReplWebPart Web Part</property>
+                <property name="Description"
+                          type="string">ReplWebPart Description</property>
+            </properties>
+        </data>
+    </webPart>
+</webParts>
+
+<!-- Add to web.config
+<SafeControl Assembly="Sapphire.Environment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fa1e57e9c7ebde49" Namespace="Sapphire.Environment.UI.WebParts.Sapphire_Environment" TypeName="*" Safe="True" />
+-->

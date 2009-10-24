@@ -1,10 +1,10 @@
 using System.Text;
 
-namespace Sapphire.Environment.UI.WebControls
+namespace Sapphire.Environment.Runtime
 {
   public class Console
   {
-    private StringBuilder _messageBuilder = new StringBuilder();
+    private readonly StringBuilder _messageBuilder = new StringBuilder();
 
     public void Write(object message)
     {

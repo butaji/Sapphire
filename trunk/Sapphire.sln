@@ -7,8 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.Tests", "Sapp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{CDE43CAD-64EA-4D06-B983-2DA92BCD1B85}"
 	ProjectSection(SolutionItems) = preProject
+		..\external\IronPython.dll = ..\external\IronPython.dll
+		..\external\IronPython.XML = ..\external\IronPython.XML
+		..\external\Microsoft.Dynamic.dll = ..\external\Microsoft.Dynamic.dll
 		..\external\Microsoft.Practices.ObjectBuilder2.dll = ..\external\Microsoft.Practices.ObjectBuilder2.dll
 		..\external\Microsoft.Practices.Unity.dll = ..\external\Microsoft.Practices.Unity.dll
+		..\external\Microsoft.Scripting.Core.dll = ..\external\Microsoft.Scripting.Core.dll
+		..\external\Microsoft.Scripting.dll = ..\external\Microsoft.Scripting.dll
+		..\external\Microsoft.Scripting.ExtensionAttribute.dll = ..\external\Microsoft.Scripting.ExtensionAttribute.dll
 		..\external\Microsoft.SharePoint.dll = ..\external\Microsoft.SharePoint.dll
 		..\external\Microsoft.SharePoint.Security.dll = ..\external\Microsoft.SharePoint.Security.dll
 		..\external\Microsoft.SharePoint.Security.xml = ..\external\Microsoft.SharePoint.Security.xml

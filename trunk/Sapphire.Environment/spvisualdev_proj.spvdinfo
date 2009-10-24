@@ -1,7 +1,7 @@
 <Settings>
-  <TargetURL>http://vnote</TargetURL>
-  <IncludedReferencedAssemblies>
-  </IncludedReferencedAssemblies>
+  <TargetURL>
+  </TargetURL>
+  <IncludedReferencedAssemblies>IronPython;Microsoft.Dynamic;Microsoft.Scripting;Microsoft.Scripting.Core;Microsoft.Sharepoint;Microsoft.Sharepoint.Security;Microsoft.Scripting.ExtensionAttribute</IncludedReferencedAssemblies>
   <WSPBuildOutputPath>
   </WSPBuildOutputPath>
   <RemoteServerUse>False</RemoteServerUse>
@@ -19,4 +19,7 @@
   </DeployTargetServerUserName>
   <DeployTargetServerPassword>
   </DeployTargetServerPassword>
+  <FeatureActivationTargetUrls>SharePoint - 80|http://vnote|True</FeatureActivationTargetUrls>
+  <ForceFeatureAction>False</ForceFeatureAction>
+  <FeatureActivationTargetSettings>$Sapphire.Environment;Project</FeatureActivationTargetSettings>
 </Settings>

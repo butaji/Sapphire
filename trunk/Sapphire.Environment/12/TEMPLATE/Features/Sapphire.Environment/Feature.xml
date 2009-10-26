@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature
+	Id="191E7718-D39C-4C05-A7FF-9BCB71928C97" xmlns="http://schemas.microsoft.com/sharepoint/"
+	Title="Sapphire.Environment"
+	Scope="Site"
+	Hidden="False">
+	<ElementManifests>
+		<ElementFile
+			Location="ReplWebPart/ReplWebPart.webpart" />
+		<ElementManifest
+			Location="webparts.xml" />
+	</ElementManifests>
+</Feature>

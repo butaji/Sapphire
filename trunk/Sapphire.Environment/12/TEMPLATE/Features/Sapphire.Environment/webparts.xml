@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module
+		Name="ReplWebPart"
+		Path="ReplWebPart"
+		Url="_catalogs/wp" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File
+			Url="ReplWebPart.webpart"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="True" />
+	</Module>
+</Elements>

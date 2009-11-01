@@ -32,7 +32,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.Fluent", "Sap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.Fluent.Tests", "Sapphire.Core.Fluent.Tests\Sapphire.Core.Fluent.Tests.csproj", "{966EDE66-BCEF-4958-B331-AAE273F88E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application.Tests", "Sapphire.Application.Tests\Sapphire.Application.Tests.csproj", "{9177D245-FB9F-4A5E-B385-CA572B9B5103}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application.Tests", "Sapphire.Application.Tests\Sapphire.Application.Tests.csproj", "{0BFA1EEF-5E7A-4FEE-8A9C-29CC7F4CD0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application", "Sapphire.Application\Sapphire.Application.csproj", "{C7801D88-D4AD-49C6-BEDE-D0806BBEC970}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,10 +70,14 @@ Global
 		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BFA1EEF-5E7A-4FEE-8A9C-29CC7F4CD0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BFA1EEF-5E7A-4FEE-8A9C-29CC7F4CD0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BFA1EEF-5E7A-4FEE-8A9C-29CC7F4CD0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BFA1EEF-5E7A-4FEE-8A9C-29CC7F4CD0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7801D88-D4AD-49C6-BEDE-D0806BBEC970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7801D88-D4AD-49C6-BEDE-D0806BBEC970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7801D88-D4AD-49C6-BEDE-D0806BBEC970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7801D88-D4AD-49C6-BEDE-D0806BBEC970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{CD
 		..\external\Microsoft.Dynamic.dll = ..\external\Microsoft.Dynamic.dll
 		..\external\Microsoft.Practices.ObjectBuilder2.dll = ..\external\Microsoft.Practices.ObjectBuilder2.dll
 		..\external\Microsoft.Practices.Unity.dll = ..\external\Microsoft.Practices.Unity.dll
+		..\external\Microsoft.Practices.Unity.Interception.dll = ..\external\Microsoft.Practices.Unity.Interception.dll
 		..\external\Microsoft.Scripting.Core.dll = ..\external\Microsoft.Scripting.Core.dll
 		..\external\Microsoft.Scripting.dll = ..\external\Microsoft.Scripting.dll
 		..\external\Microsoft.Scripting.ExtensionAttribute.dll = ..\external\Microsoft.Scripting.ExtensionAttribute.dll
@@ -20,10 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{CD
 		..\external\Microsoft.SharePoint.Security.xml = ..\external\Microsoft.SharePoint.Security.xml
 		..\external\Microsoft.SharePoint.xml = ..\external\Microsoft.SharePoint.xml
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application", "Sapphire.Application\Sapphire.Application.csproj", "{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application.Tests", "Sapphire.Application.Tests\Sapphire.Application.Tests.csproj", "{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Environment", "Sapphire.Environment\Sapphire.Environment.csproj", "{3A9E7570-F684-44CF-A218-14B53C32D3CF}"
 EndProject
@@ -34,6 +31,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.Fluent", "Sapphire.Core.Fluent\Sapphire.Core.Fluent.csproj", "{FD5D2D21-590F-4A0A-86AB-7C5F7A107964}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Core.Fluent.Tests", "Sapphire.Core.Fluent.Tests\Sapphire.Core.Fluent.Tests.csproj", "{966EDE66-BCEF-4958-B331-AAE273F88E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphire.Application.Tests", "Sapphire.Application.Tests\Sapphire.Application.Tests.csproj", "{9177D245-FB9F-4A5E-B385-CA572B9B5103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,14 +48,6 @@ Global
 		{D7613D91-E17F-4D2E-B051-EB9B80FC844E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7613D91-E17F-4D2E-B051-EB9B80FC844E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7613D91-E17F-4D2E-B051-EB9B80FC844E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46FB3052-4B41-4DF8-86CE-18D92A7DF6B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10EA2CC2-F46E-4274-A099-504E2FD4D8AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A9E7570-F684-44CF-A218-14B53C32D3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A9E7570-F684-44CF-A218-14B53C32D3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9E7570-F684-44CF-A218-14B53C32D3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -77,6 +68,10 @@ Global
 		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{966EDE66-BCEF-4958-B331-AAE273F88E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9177D245-FB9F-4A5E-B385-CA572B9B5103}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

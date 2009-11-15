@@ -1,6 +1,7 @@
 using System;
-using System.Web;
 using Microsoft.Practices.Unity;
+using Microsoft.Practices.Unity.InterceptionExtension;
+using Sapphire.Web.UI;
 
 namespace Sapphire
 {
@@ -52,7 +53,7 @@ namespace Sapphire
           {
             IUnityContainer container = new UnityContainer();
             Container = container;
-            Container.RegisterInstance<IUnityContainer>(Container);
+            Container.RegisterInstance(Container);
           }
         }
       }
@@ -63,18 +64,6 @@ namespace Sapphire
     /// </summary>
     protected virtual void Start()
     {
-    }
-
-    /// <summary>
-    /// Utility method to build up an object without adding it to the container.
-    /// </summary>
-    /// <param name="obj">The object to build.</param>
-    public static void BuildItemWithCurrentContext(object obj)
-    {
-      HttpContext context = HttpContext.Current;
-
-      Application app = (Application)context.ApplicationInstance;
-      app.Container.BuildUp(obj.GetType(), obj);
     }
   }
 }

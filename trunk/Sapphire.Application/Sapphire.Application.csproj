@@ -12,6 +12,8 @@
     <AssemblyName>Sapphire.Application</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Sapphire.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -63,13 +65,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
+    <Compile Include="ExceptionHandling\SapphireUserFriendlyException.cs" />
+    <Compile Include="Extensions\CodeDomExtensions.cs" />
+    <Compile Include="Extensions\PageExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ExceptionHandling\ExceptionAttribute.cs" />
+    <Compile Include="ExceptionHandling\HandleExceptionAttribute.cs" />
     <Compile Include="ExceptionHandling\ExceptionHandler.cs" />
+    <Compile Include="Web\UI\ConstructorInjectionAttribute.cs" />
+    <Compile Include="Web\UI\ErrorVisualizer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\UI\IErrorVisualized.cs" />
+    <Compile Include="Web\UI\SapphireControlBuilder.cs" />
     <Compile Include="Web\UI\UserControl.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Web\UI\WebPart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sapphire.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="global.asax" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

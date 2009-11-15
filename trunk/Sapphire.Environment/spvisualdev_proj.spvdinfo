@@ -1,6 +1,7 @@
 <Settings>
-  <TargetURL>http://vnote</TargetURL>
-  <IncludedReferencedAssemblies>IronPython;Microsoft.Dynamic;Microsoft.Scripting;Microsoft.Scripting.Core;Microsoft.Scripting.ExtensionAttribute;Microsoft.Sharepoint;Microsoft.Sharepoint.Security</IncludedReferencedAssemblies>
+  <TargetURL>
+  </TargetURL>
+  <IncludedReferencedAssemblies>IronPython;Microsoft.Dynamic;Microsoft.Scripting;Microsoft.Scripting.Core;Microsoft.Scripting.ExtensionAttribute;Microsoft.Sharepoint;Microsoft.Sharepoint.Security;Sapphire.Application;Microsoft.Practices.Unity.Interception</IncludedReferencedAssemblies>
   <WSPBuildOutputPath>
   </WSPBuildOutputPath>
   <RemoteServerUse>False</RemoteServerUse>

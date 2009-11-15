@@ -1,20 +1,18 @@
 using System.Web.UI.WebControls.WebParts;
-using Sapphire.Environment.UI.WebControls;
+using WebPart = Sapphire.Web.UI.WebPart;
 
 namespace Sapphire.Environment.UI.WebParts.Sapphire_Environment
 {
-  public sealed class ReplWebPart : WebPart
+  public class ReplWebPart : WebPart
   {
     public ReplWebPart()
     {
       ExportMode = WebPartExportMode.All;
     }
 
-    protected override void CreateChildControls()
+    public override string HostedControlVirtualPath
     {
-      Repl repl = Page.LoadControl("~/_controlTemplates/Sapphire/Environment/Repl.ascx") as Repl;
-      Controls.Add(repl);
-      base.CreateChildControls();
+      get { return "~/_controlTemplates/Sapphire/Environment/Repl.ascx"; }
     }
   }
 }

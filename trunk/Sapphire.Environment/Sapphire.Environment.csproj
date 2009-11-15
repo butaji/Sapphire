@@ -47,6 +47,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\external\Microsoft.Dynamic.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\external\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Scripting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\external\Microsoft.Scripting.dll</HintPath>
@@ -117,6 +121,12 @@
     <None Include="Sapphire.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Sapphire.Application\Sapphire.Application.csproj">
+      <Project>{C7801D88-D4AD-49C6-BEDE-D0806BBEC970}</Project>
+      <Name>Sapphire.Application</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="12\TEMPLATE\GLOBAL\" />
     <Folder Include="12\TEMPLATE\IMAGES\" />
     <Folder Include="12\TEMPLATE\LAYOUTS\" />
@@ -141,7 +151,7 @@
           <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties SPVisualDev_IncludedAssemblies="IronPython;Microsoft.Dynamic;Microsoft.Scripting;Microsoft.Scripting.Core;Microsoft.Sharepoint;Microsoft.Sharepoint.Security;Microsoft.Scripting.ExtensionAttribute" SPVisualDev_WSPAdditionalSwitches="" SPVisualDev_AssemblyBuildType="GAC" SPVisualDev_WSPSolutionId="f1e6e1c4-c0c7-4bee-98b8-df76f8e959eb" SPVisualDev_EventRecNSsuffix="EventReceivers" SPVisualDev_WebPartsNSsuffix="UI.WebParts" SPVisualDev_MasterPagesNSsuffix="MasterPages" SPVisualDev_WebCustomConstrolNSsuffix="UI.WebControls" SPVisualDev_ASPXPagesNSsuffix="ApplicationPages" SPVisualDev_SPVisualDev_ProjID="SharePointArtifactsProject" />
+      <UserProperties SPVisualDev_SPVisualDev_ProjID="SharePointArtifactsProject" SPVisualDev_ASPXPagesNSsuffix="ApplicationPages" SPVisualDev_WebCustomConstrolNSsuffix="UI.WebControls" SPVisualDev_MasterPagesNSsuffix="MasterPages" SPVisualDev_WebPartsNSsuffix="UI.WebParts" SPVisualDev_EventRecNSsuffix="EventReceivers" SPVisualDev_WSPSolutionId="f1e6e1c4-c0c7-4bee-98b8-df76f8e959eb" SPVisualDev_AssemblyBuildType="GAC" SPVisualDev_WSPAdditionalSwitches="" SPVisualDev_IncludedAssemblies="IronPython;Microsoft.Dynamic;Microsoft.Scripting;Microsoft.Scripting.Core;Microsoft.Scripting.ExtensionAttribute;Microsoft.Sharepoint;Microsoft.Sharepoint.Security;Sapphire.Application;Microsoft.Practices.Unity.Interception" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

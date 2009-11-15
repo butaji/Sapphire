@@ -1,4 +1,3 @@
-using System;
 using Microsoft.Practices.Unity.InterceptionExtension;
 
 namespace Sapphire.ExceptionHandling
@@ -7,9 +6,13 @@ namespace Sapphire.ExceptionHandling
   {
     #region Implementation of ICallHandler
 
+    /// <exception cref="SapphireUserFriendlyException"><c>SapphireUserFriendlyException</c>.</exception>
     public IMethodReturn Invoke(IMethodInvocation input, GetNextHandlerDelegate getNext)
     {
-      throw new NotImplementedException();
+      var result = getNext()(input, getNext);
+      if (result.Exception == null)
+        return result;
+      throw new SapphireUserFriendlyException();
     }
 
     public int Order { get; set; }

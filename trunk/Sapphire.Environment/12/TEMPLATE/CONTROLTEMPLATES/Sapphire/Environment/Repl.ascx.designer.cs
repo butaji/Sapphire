@@ -9,10 +9,10 @@
 //------------------------------------------------------------------------------
 
 namespace Sapphire.Environment.UI.WebControls {
-    
-    
+
+
     public partial class Repl {
-        
+
         /// <summary>
         /// ScriptTextBox control.
         /// </summary>
@@ -21,7 +21,7 @@ namespace Sapphire.Environment.UI.WebControls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox ScriptTextBox;
-        
+
         /// <summary>
         /// PythonRadioButton control.
         /// </summary>
@@ -30,7 +30,7 @@ namespace Sapphire.Environment.UI.WebControls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton PythonRadioButton;
-        
+
         /// <summary>
         /// RunButton control.
         /// </summary>
@@ -39,7 +39,7 @@ namespace Sapphire.Environment.UI.WebControls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button RunButton;
-        
+
         /// <summary>
         /// ResultLabel control.
         /// </summary>

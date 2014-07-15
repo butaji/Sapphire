@@ -10,7 +10,7 @@ namespace Sapphire.Web.UI
   /// </summary>
   [ResolveInsteadOfCallConstructor]
   [ControlBuilder(typeof(SapphireControlBuilder))]
-  public class WebPart : System.Web.UI.WebControls.WebParts.WebPart, 
+  public class WebPart : System.Web.UI.WebControls.WebParts.WebPart,
                               IErrorVisualized
   {
     private UserControl _hostedControl;

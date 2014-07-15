@@ -36,7 +36,7 @@ namespace Sapphire.Core.Mapping
     }
 
     /// <summary>
-    /// The list of field mappings that are used by the ListItemFieldMapper class. 
+    /// The list of field mappings that are used by the ListItemFieldMapper class.
     /// </summary>
     public Collection<FieldToEntityPropertyMapping> FieldMappings
     {
@@ -44,7 +44,7 @@ namespace Sapphire.Core.Mapping
     }
 
     /// <summary>
-    /// Fill a SPListItem's properties based on the values in an entity.  
+    /// Fill a SPListItem's properties based on the values in an entity.
     /// </summary>
     /// <param name="spListItem"></param>
     /// <param name="entity"></param>
@@ -60,7 +60,7 @@ namespace Sapphire.Core.Mapping
     }
 
     /// <summary>
-    /// Add a mapping between a field in an SPListItem and a property in the entity. 
+    /// Add a mapping between a field in an SPListItem and a property in the entity.
     /// </summary>
     /// <param name="fieldId"></param>
     /// <param name="expression"></param>
@@ -74,7 +74,7 @@ namespace Sapphire.Core.Mapping
     }
 
     /// <summary>
-    /// Add a mapping between a field in an SPListItem and a property in the entity with converter. 
+    /// Add a mapping between a field in an SPListItem and a property in the entity with converter.
     /// </summary>
     /// <param name="fieldId"></param>
     /// <param name="expression"></param>
@@ -91,7 +91,7 @@ namespace Sapphire.Core.Mapping
     }
 
     /// <summary>
-    /// Add a mapping between a field in an SPListItem and a property in the entity with bi converters. 
+    /// Add a mapping between a field in an SPListItem and a property in the entity with bi converters.
     /// </summary>
     /// <param name="fieldId"></param>
     /// <param name="expression"></param>
@@ -118,7 +118,7 @@ namespace Sapphire.Core.Mapping
     public Guid ListFieldId { get; set; }
 
     /// <summary>
-    /// The name of the property on the entity. 
+    /// The name of the property on the entity.
     /// </summary>
     public string EntityPropertyName { get; set; }
 
@@ -138,7 +138,7 @@ namespace Sapphire.Core.Mapping
     }
 
     /// <summary>
-    /// Map entity property to SPListItem field 
+    /// Map entity property to SPListItem field
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="entityType"></param>
@@ -225,7 +225,7 @@ namespace Sapphire.Core.Mapping
   }
 
   /// <summary>
-  /// Exception that can occur when mapping a field of an SPListItem to a property of a business entity. 
+  /// Exception that can occur when mapping a field of an SPListItem to a property of a business entity.
   /// </summary>
   [Serializable]
   public class ListItemFieldMappingException : Exception

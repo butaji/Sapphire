@@ -1,13 +1,13 @@
 = Sapphire: SharePoint Application Framework
 
 This project is intended for use in production applications in order to lower the threshold and increase developer productivity, it gathers many of the patterns, as well as advanced solutions for SharePoint, the project contains useful elements of the environment
- 
-The project contains usecases usages of following technologies: 
+
+The project contains usecases usages of following technologies:
 	Microsoft SharePoint
 	Unity Application Block (Microsoft Patterns&Practicies)
 	WCF
 	Dynamic Languages Runtime
 	Typemock Isolator
 	MbUnit
- 
+
 More about Sapphire here: http://www.slideshare.net/butaji/sapphire-2256588

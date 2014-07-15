@@ -7,7 +7,7 @@ namespace Sapphire.Environment.Runtime
     object Execute(string input);
 
     void SetVar(string name, object value);
-    
+
     object GetVar(string name);
   }
 }
